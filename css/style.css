@@ -1,46 +1,50 @@
-header {
-    font-family: 'Amatic SC', cursive;
-    font-family: 'Gorditas', cursive;
-    font-family: 'Noto Serif JP', serif;
-    font-size: 40px;
-    text-align:right;
+.firstview {
+    background: url(../img/img/firstview.png)no-repeat;
+    background-size: cover;
+    height: 600px;
 }
 
-.top__test {
-    position: relative;
+.header__log {
+    font-size: 60px,22px;
+    font-family: 'Shippori Mincho', cursive;
+    color: #ffff;
 }
 
-
-
-.top__test-text {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    padding: 0;
-    font-size: 2em;
+a {
+    text-decoration: none;
+    color: inherit;
 }
-
-.top__test-img {
-    width: 100%;
-}
-
-.practice__btn {
-    width: 200px;
-    padding: 10px 0;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 850px 0 20px;
+    background-color: #000;
     color: #fff;
-    border-radius: 30px;
-    background:  #f047af
-    text-align: center;
-    box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
-    margin:100px auto 0;
-    display:block;
 }
-
-.title {
-    background-color: #2ef8d6;
-    color: rgb(252, 247, 247);
-    padding: 20px 0;
-    text-align: center;
+.header-ttl {
+    font-size: 24px;
+    width: 50px;
+}
+.header-nav-list {
+    display: flex;
+    font-weight: bold;
+}
+.header-nav-item:not(:last-child) {
+    margin-right: 50px;
+    color: white;
+}
+.firstview__ttl {
+    color: white;
+    margin: 650px 0 0 0;
+    font-size: 35px;
+}
+.sub__ttl {
+    color: white;
+    margin: 800px 0 0 0;
+    font-size: 20px;
+}
+img {
+    width: 500px;
 }
