@@ -1,0 +1,50 @@
+.firstview {
+    background: url(../img/img/firstview.png)no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.header__log {
+    font-size: 60px,22px;
+    font-family: 'Shippori Mincho', cursive;
+    color: #ffff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 850px 0 20px;
+    background-color: #000;
+    color: #fff;
+}
+.header-ttl {
+    font-size: 24px;
+    width: 50px;
+}
+.header-nav-list {
+    display: flex;
+    font-weight: bold;
+}
+.header-nav-item:not(:last-child) {
+    margin-right: 50px;
+    color: white;
+}
+.firstview__ttl {
+    color: white;
+    margin: 650px 0 0 0;
+    font-size: 35px;
+}
+.sub__ttl {
+    color: white;
+    margin: 800px 0 0 0;
+    font-size: 20px;
+}
+img {
+    width: 500px;
+}
